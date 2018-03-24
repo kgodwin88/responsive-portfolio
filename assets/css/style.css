@@ -196,7 +196,7 @@ input[type=submit]{
 }
   @media screen and (max-width: 640px){
     #header{
-        width: 640px;
+        width: 100%;
         margin: 0 auto;
         overflow: hidden;
     }
@@ -222,6 +222,7 @@ input[type=submit]{
  
     }
     nav{
+        clear: both;
         margin: 0 auto;
         position: relative;
         right: 30%;
@@ -231,7 +232,7 @@ input[type=submit]{
         width: 100%;
         margin: 0 auto;
         margin-top: -40px;
-        
+    
     } 
     .sidebar{
         clear: both;
@@ -239,7 +240,7 @@ input[type=submit]{
         margin: 0 auto;
         margin-top: 15px;
         margin-bottom: 15px;
-
+        
 
   }
 }
