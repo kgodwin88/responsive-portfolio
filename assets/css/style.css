@@ -87,16 +87,14 @@ nav a:first-child{
     background: #fff;
     padding: 30px;
     margin: 0 0 40px 0;
-    width: 100%;
-    max-width: 650px;
+    width: 68%;
     float: left;
     border: 1px solid #ddd;
 }
 .sidebar{
     background: #fff;
     padding: 30px;
-    width: 100%;
-    max-width: 270px;
+    width: 28%;
     float: right;
     border: 1px solid #ddd;
     margin-bottom: 20px;
@@ -185,13 +183,11 @@ input[type=submit]{
       }
       .main-section{
           width: 100%;
-          max-width: 740px;
           margin: 0 auto;
           margin-top: -40px;
       }
       .sidebar{
           width: 100%;
-          max-width: 740px;
           margin: 0 auto;
           margin-top: 20px;
           margin-bottom: 20px;
@@ -206,12 +202,8 @@ input[type=submit]{
     }
     #logo{
         width: 100%;
-        max-width: 640px;
         
         
-    }
-    .container{
-        max-width: 640px;
         
     }
     .pic{
@@ -222,21 +214,28 @@ input[type=submit]{
 
 
     }
+    .images{
+        clear: both;
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+ 
+    }
     nav{
-        padding-right: 195px;
+        margin: 0 auto;
+        position: relative;
+        right: 30%;
     }
     .main-section{
         clear: both;
         width: 100%;
-        max-width: 610px;
         margin: 0 auto;
         margin-top: -40px;
-        margin-left: 15px;
-
+        
     } 
     .sidebar{
+        clear: both;
         width: 100%;
-        max-width: 610px;
         margin: 0 auto;
         margin-top: 15px;
         margin-bottom: 15px;
